@@ -1,0 +1,238 @@
+[
+  {
+    "id": "Q01",
+    "question": "Why are software safeguards alone not sufficient for security?",
+    "type": "reasoning",
+    "expected_book_id": "G000_BOOK_001",
+    "expected_pages": [
+      12
+    ],
+    "reference_answer": "In particular, software safeguards alone  are not sufficient.”  “Security Controls for Computer Systems,” (The Ware Report), Rand Corporation  Defense Science Board Task Force on Computer Security, February 1970  “Mission assurance requires systems that behave with predictability and proportionality.”  General Michael Hayden  Former Director National Security Agency (NSA) and Central Intelligence ",
+    "split": "test",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q02",
+    "question": "How does subject-to-program and program-to-object binding enforce integrity?",
+    "type": "reasoning",
+    "expected_book_id": "G000_BOOK_002",
+    "expected_pages": [
+      188
+    ],
+    "reference_answer": "• It keeps internal and external consistency. The Clark and Wilson integrity model defines well-formed transactions and constraints on data. For example, a commercial system  should allow a new luxury car sale to be entered only at a price of  $40,000. It should not be possible to enter the sale at $4,000 or at  $400,000. This keeps internal consistency. Internal consistency  makes sure the system",
+    "split": "validation",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q03",
+    "question": "What is signature dynamics as a biometric?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_002",
+    "expected_pages": [
+      173
+    ],
+    "reference_answer": "• Signature dynamics—With this type of biometric, sensors in a pen, stylus, or writing  tablet are used to record pen-stroke speed, direction, and pressure. Signature dynamics  are accurate and users accept them. Advantages and Disadvantages of Biometrics:  Biometrics offer these advantages: • A person must be physically present to authenticate. • There is nothing to remember. • Biometrics are har",
+    "split": "test",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q04",
+    "question": "What is the first step in securing endpoints?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_003",
+    "expected_pages": [
+      53
+    ],
+    "reference_answer": "The first step in properly  securing the endpoints requires end-user awareness and the adoption of the appropriate technical  controls like antimalware software, Host based firewall, Host-based IPS/IDS, Patch and update  policy enforcement. 3.3.2.10 Secure Third-Party Connectivity  The ability to communicate and collaborate with partners, suppliers, customers, and employees  anytime and anywhere i",
+    "split": "validation",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q05",
+    "question": "What techniques increase the security of memory token systems?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_004",
+    "expected_pages": [
+      197
+    ],
+    "reference_answer": "Most of the techniques for increasing the security of memory token systems relate to the protection of PINs. Many of the techniques discussed in the sidebar on Improving Password Security apply to PINs. 1. Requires special reader. The need for a special reader increases the cost of using memory tokens. The readers used for memory tokens must include both the physical unit that reads the card and a",
+    "split": "test",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q06",
+    "question": "What real-world examples show the importance of cybersecurity?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_005",
+    "expected_pages": [
+      16
+    ],
+    "reference_answer": "1.1.5 Real-World Examples of Cybersecurity Breaches To illustrate the importance of cybersecurity, let’s look at some real-world examples of highprofile breaches: • Equifax (2017): A vulnerability in the company’s web application led to the exposure of 147 million consumers’ personal data, including Social Security numbers and credit card information. • WannaCry Ransomware (2017): This global atta",
+    "split": "validation",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q07",
+    "question": "Why is Python a good choice for cybersecurity?",
+    "type": "reasoning",
+    "expected_book_id": "G000_BOOK_005",
+    "expected_pages": [
+      32
+    ],
+    "reference_answer": "Chapter 2 Why Python for Cybersecurity? 2.1 Easy to Learn and Use Python’s ease of learning and use is one of the primary reasons it has become the go-to language for cybersecurity professionals. Its simple syntax, readability, and rapid prototyping capabilities make it accessible to both beginners and experienced developers. In this section, we’ll explore why Python’s user-friendly design is a ga",
+    "split": "test",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q08",
+    "question": "What does ALARP mean in risk management?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_008",
+    "expected_pages": [
+      823
+    ],
+    "reference_answer": "ALARP A method to reduce risk to levels As Low As Reasonably Possible. alert Notiﬁcation that a speciﬁc attack has been directed at an organisation’s information systems (Source = NIST IR 7298r2). In the SOIM context, an alert should refer to an event, or group of events, of interest from a security perspective, representing either an attack symptom or consequence. An alert is necessarily the outc",
+    "split": "validation",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q09",
+    "question": "What is the role of international laws in computing and communications?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_009",
+    "expected_pages": [
+      30
+    ],
+    "reference_answer": "ROLE OF INTERNATIONAL LAWS  In various countries, areas of the computing and communication industries are regulated by  governmental bodies There are specific rules on the uses to which computers and computer  networks may be put, in particular there are rules on unauthorized access, data privacy and  spamming There are also limits on the use of encryption and of equipment which may be  used to de",
+    "split": "test",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q10",
+    "question": "What is shell code in a buffer overflow attack?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_010",
+    "expected_pages": [
+      148
+    ],
+    "reference_answer": "Exploitation  131 © 2011 by Taylor & Francis Group, LLC return address upon the completion of the function. The processor,  unaware of the data’s validity, will attempt to execute the instructions  at this location. This allows the attacker who filled Variable C with  the oversized data to directly influence the flow of code execution. Simply filling a stack buffer with data and overwriting the re",
+    "split": "validation",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q11",
+    "question": "What are diploma mills?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_012",
+    "expected_pages": [
+      43
+    ],
+    "reference_answer": "These diploma mills offer to  turn your work experience into a degree in exchange of money. The transcripts are  also issued to the students on the basis of self evaluation. Its only when the students is  rejected on account of fake degree, he realize that he fell pray to online fraud. 11. Can you belive a fake tweet message can cost $136 billiion loss within seconds  (Fisher, 2013). The US stock ",
+    "split": "test",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q12",
+    "question": "What role does a computer forensic investigator play?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_012",
+    "expected_pages": [
+      34
+    ],
+    "reference_answer": "An experienced computer  forensic investigator plays a crucial role in distinguishing direct and indirect attack. Computer  forensic experts are also useful for recovery of accidental data loss, to detect industrial  espionage, counterfeiting, etc. In large organization, as soon as a cyber crime is detected by the incident handling team,  which is responsible for monitoring and detection of securi",
+    "split": "validation",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q13",
+    "question": "What is the Nikto web server scanner used for?",
+    "type": "factual",
+    "expected_book_id": "G000_BOOK_013",
+    "expected_pages": [
+      123
+    ],
+    "reference_answer": "1. The Nikto web server scanner is a security tool that will test a web site for thousands  of possible security issues. Including dangerous files, mis-configured services,  vulnerable scripts and other issues. It is open source and structured with plugins that  extend the capabilities.  2. W3AF stands for Web Application Attack and Audit Framework.  3. The curl command transfers data to or from a",
+    "split": "test",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q14",
+    "question": "How should an organisation handle Advanced Persistent Threats?",
+    "type": "reasoning",
+    "expected_book_id": "G000_BOOK_013",
+    "expected_pages": [
+      38
+    ],
+    "reference_answer": "34  3.1 LEARNING OBJECTIVE After studying this unit student should be able to: • Understand how the Advanced Persistent Threat(APT) can be handled in a way that  traditional threats are handled.  • Understand cyber kill chain 3.2 UNDERSTANDING THE PROBLEM In today's world organizations are facing critical issues from different types of advanced  threats including to the traditional ones. However, ",
+    "split": "validation",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q15",
+    "question": "How can software piracy be mitigated during installation?",
+    "type": "reasoning",
+    "expected_book_id": "G000_BOOK_015",
+    "expected_pages": [
+      125
+    ],
+    "reference_answer": "•  Software piracy mitigation: During installation, software may save  the PSN of the platform. At runtime, the software checks the PSN  against the stored value and functions only if they match. •  Corporate computer management: The PSN makes the resource  management tasks of corporates’ information technology (IT)  departments easier. Replacing the processor on a computer is  a much less frequen",
+    "split": "test",
+    "review_status": "written by author, checked against book text"
+  },
+  {
+    "id": "Q16",
+    "question": "What is the recipe for a chocolate cake",
+    "type": "no-answer",
+    "split": "validation",
+    "review_status": "written by author"
+  },
+  {
+    "id": "Q17",
+    "question": "Who won the 2018 FIFA World Cup",
+    "type": "no-answer",
+    "split": "test",
+    "review_status": "written by author"
+  },
+  {
+    "id": "Q18",
+    "question": "How do I train a dog to sit",
+    "type": "no-answer",
+    "split": "validation",
+    "review_status": "written by author"
+  },
+  {
+    "id": "Q19",
+    "question": "What is the capital city of Australia",
+    "type": "no-answer",
+    "split": "test",
+    "review_status": "written by author"
+  },
+  {
+    "id": "Q20",
+    "question": "How many calories are in an apple",
+    "type": "no-answer",
+    "split": "validation",
+    "review_status": "written by author"
+  },
+  {
+    "id": "Q21",
+    "question": "Explain the plot of Romeo and Juliet",
+    "type": "no-answer",
+    "split": "test",
+    "review_status": "written by author"
+  },
+  {
+    "id": "Q22",
+    "question": "What is the best way to grow tomatoes",
+    "type": "no-answer",
+    "split": "validation",
+    "review_status": "written by author"
+  },
+  {
+    "id": "Q23",
+    "question": "How do airplanes stay in the air",
+    "type": "no-answer",
+    "split": "test",
+    "review_status": "written by author"
+  }
+]

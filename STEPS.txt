@@ -1,0 +1,56 @@
+FINISH CHECKLIST  (run every command in the VS Code terminal, inside chatbot_project)
+=====================================================================================
+Use plain "python" (your normal Python). Do NOT use the .venv one.
+
+STEP 1  Put the new files in place
+  - Extract this zip INTO your chatbot_project folder (right-click > Extract All, then set the
+    destination to Desktop\chatbot_project). It adds: make_questions.py, app.py, make_readme.py,
+    package_submission.py, requirements.txt and the folder tests\
+
+STEP 2  Check your manifest (submission item 2)
+  - Open data\book_manifest.json. Every book needs a real title and author. Save with Ctrl+S.
+  - If you change anything, run:  python ingest.py   again (so the titles in the passages are correct).
+
+STEP 3  Make the test questions (item 6)
+  python make_questions.py
+  - Good to do: open data\evaluation_questions.json and rewrite 5-10 of the
+    "What do the books say about ..." questions into natural questions
+    (keep expected_book_id and expected_pages the same). Save.
+
+STEP 4  Measure the chatbot (item 7)
+  python evaluate.py
+  - Recall@5 target is 80%. Refusals on the no-answer questions should be 100%.
+  - If it wrongly refuses answerable questions, open chatbot.py and lower MIN_SCORE (3.0 -> 2.0)
+    or MIN_COVERAGE (0.5 -> 0.4). If it answers the no-answer questions, raise them.
+    Run evaluate.py again. Report the final numbers honestly, even if below 80%.
+
+STEP 5  Human review (the brief requires it)
+  - Open evaluation\review_sheet.csv in Excel.
+  - For at least 20 rows, read chatbot_answer and sources, then type yes or no in the last two
+    columns (answer_correct, citation_correct). Save as CSV (same name). Close Excel afterwards.
+
+STEP 6  Run the automated tests (item 5)
+  python -m unittest discover tests -v
+  - Every test should say ok. If one fails, send me the message or fix what it says.
+
+STEP 7  Create README and evaluation report (items 1, 4, 7, 8)
+  python make_readme.py
+  - Open README.md. Fix the lines marked <<< CHECK (group ID, name, RAM). Save.
+
+STEP 8  Demo video (item 10)
+  python app.py        then open http://localhost:8000 in the browser
+  - Record the screen (PowerPoint: Insert > Screen Recording). Ask 4 questions:
+      2 that the books answer (show the sources under each answer),
+      1 off-topic like "how do I bake a chocolate cake" (shows the refusal),
+      1 more from your books.
+  - Save the video as demo.mp4 in chatbot_project. Stop the page with Ctrl+C.
+
+STEP 9  Build the submission zip
+  python package_submission.py
+  - Creates submission.zip (no books, no extracted text, no keys). Check that it opens.
+  - If demo.mp4 is too big, upload it to Google Drive (Anyone with the link can view) and put the
+    link at the top of README.md.
+
+STEP 10 Submit
+  - The assignment PDF does not say how or when. Ask your lecturer.
+  - Never send API keys or the books.

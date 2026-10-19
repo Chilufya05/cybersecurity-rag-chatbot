@@ -1,0 +1,122 @@
+[
+  {
+    "book_id": "G000_BOOK_001",
+    "file": "book 11.pdf",
+    "pages": 195,
+    "empty_pages": 0,
+    "passages": 653,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_002",
+    "file": "book1.pdf",
+    "pages": 571,
+    "empty_pages": 3,
+    "passages": 1889,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_003",
+    "file": "book10.pdf",
+    "pages": 287,
+    "empty_pages": 3,
+    "passages": 755,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_004",
+    "file": "book12.pdf",
+    "pages": 297,
+    "empty_pages": 27,
+    "passages": 752,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_005",
+    "file": "book13.pdf",
+    "pages": 232,
+    "empty_pages": 1,
+    "passages": 291,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_006",
+    "file": "book14.pdf",
+    "pages": 246,
+    "empty_pages": 0,
+    "passages": 704,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_007",
+    "file": "book15.pdf",
+    "pages": 391,
+    "empty_pages": 11,
+    "passages": 1033,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_008",
+    "file": "book2.pdf",
+    "pages": 834,
+    "empty_pages": 13,
+    "passages": 3045,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_009",
+    "file": "book3.pdf",
+    "pages": 68,
+    "empty_pages": 0,
+    "passages": 211,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_010",
+    "file": "book4.pdf",
+    "pages": 331,
+    "empty_pages": 7,
+    "passages": 844,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_011",
+    "file": "book5.pdf",
+    "pages": 106,
+    "empty_pages": 4,
+    "passages": 273,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_012",
+    "file": "book6.pdf",
+    "pages": 152,
+    "empty_pages": 2,
+    "passages": 323,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_013",
+    "file": "book7.pdf",
+    "pages": 229,
+    "empty_pages": 3,
+    "passages": 491,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_014",
+    "file": "book8.pdf",
+    "pages": 234,
+    "empty_pages": 13,
+    "passages": 581,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_015",
+    "file": "book9.pdf",
+    "pages": 263,
+    "empty_pages": 1,
+    "passages": 736,
+    "status": "processed"
+  }
+]

@@ -1,0 +1,16 @@
+# books and text taken from them (copyright, and the brief forbids submitting them)
+books/
+Books/
+data/passages.jsonl
+data/sample_passages.txt
+
+# environment and junk
+.venv/
+__pycache__/
+*.pyc
+
+# keys, big files, build output
+.env
+*.key
+submission.zip
+*.mp4

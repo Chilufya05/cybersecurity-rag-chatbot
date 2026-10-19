@@ -1,0 +1,7 @@
+# Required (used by make_manifest.py and ingest.py)
+pymupdf==1.28.2
+# Everything else (search, chatbot, web page, tests) uses only the Python standard library.
+# Optional experiment (build_index.py), install only if your connection allows:
+#   sentence-transformers
+#   faiss-cpu
+# Use Python 3.12 for the optional packages (they have no downloads for 3.15).

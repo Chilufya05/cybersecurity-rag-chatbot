@@ -1,0 +1,22 @@
+{
+  "group_id": "G000",
+  "subject": "Cybersecurity",
+  "retriever": "BM25 (pure Python, no model download)",
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "embedding_model": null,
+  "embedding_note": "Embedding model download failed repeatedly on the available connection; build_index.py (sentence-transformers all-MiniLM-L6-v2 + FAISS) is included as an optional experiment.",
+  "chunking": {
+    "max_chars": 1000,
+    "never_crosses_page": true
+  },
+  "top_k": 5,
+  "abstention": {
+    "min_bm25_score": 3.0,
+    "min_keyword_coverage": 0.5
+  },
+  "generation": "optional OpenAI-compatible API via LLM_API_KEY / LLM_BASE_URL / LLM_MODEL environment variables; without a key the chatbot runs in evidence mode",
+  "python": "3.15.0"
+}
